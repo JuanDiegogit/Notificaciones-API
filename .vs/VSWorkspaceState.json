@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NotificationAPI",
+    "\\NotificationAPI\\Controllers",
+    "\\NotificationAPI\\Data",
+    "\\NotificationAPI\\Models",
+    "\\NotificationAPI\\obj",
+    "\\NotificationAPI\\Properties",
+    "\\NotificationAPI\\Servicios"
+  ],
+  "SelectedNode": "\\NotificationAPI\\WeatherForecast.cs",
+  "PreviewInSolutionExplorer": false
+}

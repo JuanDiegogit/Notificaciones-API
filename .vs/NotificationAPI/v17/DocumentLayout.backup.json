@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|c:\\users\\eugen\\source\\repos\\notificationapi\\notificationapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|solutionrelative:notificationapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|c:\\users\\eugen\\source\\repos\\notificationapi\\notificationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|solutionrelative:notificationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|c:\\users\\eugen\\source\\repos\\notificationapi\\notificationapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|solutionrelative:notificationapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|c:\\users\\eugen\\source\\repos\\notificationapi\\notificationapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|solutionrelative:notificationapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|c:\\users\\eugen\\source\\repos\\notificationapi\\notificationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|solutionrelative:notificationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|c:\\users\\eugen\\source\\repos\\notificationapi\\notificationapi\\notificationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C39271A3-941D-4739-9F15-64CE61CA02A7}|NotificationAPI\\NotificationAPI.csproj|solutionrelative:notificationapi\\notificationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "NotificationAPI\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "NotificationAPI\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:25:12.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "NotificationAPI\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Models\\Notification.cs",
+              "RelativeToolTip": "NotificationAPI\\Models\\Notification.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:10:44.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "NotificationAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "NotificationAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:11:30.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "NotificationAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\Program.cs",
+              "RelativeToolTip": "NotificationAPI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T11:12:00.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "NotificationAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\appsettings.json",
+              "RelativeToolTip": "NotificationAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T11:11:44.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationAPI",
+              "DocumentMoniker": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj",
+              "RelativeDocumentMoniker": "NotificationAPI\\NotificationAPI.csproj",
+              "ToolTip": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj",
+              "RelativeToolTip": "NotificationAPI\\NotificationAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T11:21:02.228Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
