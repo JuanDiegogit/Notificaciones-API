@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+artifacts/
+
+# Rider
+.idea/
+
+# Secret and config
+appsettings.*.json
+secrets.json
+*.env
+*.local
+
+# NuGet
+*.nupkg
+packages/
+
+# OS files
+Thumbs.db
+*.DS_Store
+
+# Logs
+*.log
+
+# JetBrains
+.idea/
+
+# EF Migrations history (si no quieres versionar)
+Migrations/
+
+# Resharper
+_ReSharper*/
