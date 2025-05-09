@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using NotificationAPI.Data;
 using NotificationAPI.Models;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ namespace NotificationAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -21,6 +23,7 @@ namespace NotificationAPI.Controllers
         }
 
         // GET 
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
         {
@@ -34,6 +37,7 @@ namespace NotificationAPI.Controllers
         }
 
         // GET 
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {

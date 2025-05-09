@@ -1,12 +1,18 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Authorization;
+using System;
+using System.Text;
+using NotificationAPI.Data;
+using NotificationAPI.Servicios;
+using NotificationAPI.Middleware;
+using Microsoft.AspNetCore.Builder;        
+using Microsoft.Extensions.Hosting; 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using NotificationAPI.Data;
-using NotificationAPI.Middleware;
-using NotificationAPI.Servicios;
-using System.Text;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization; 
+using Microsoft.Extensions.DependencyInjection; 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

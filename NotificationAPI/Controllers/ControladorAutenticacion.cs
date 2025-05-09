@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
-using NotificationAPI.Servicios;
+using NotificationAPI.Servicios; 
 
 
 namespace NotificationAPI.Controllers

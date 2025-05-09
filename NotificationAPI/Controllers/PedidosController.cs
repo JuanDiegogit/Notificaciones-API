@@ -1,4 +1,5 @@
-using System;                           
+using System;
+using System.Linq;
 using NotificationAPI.Data;
 using NotificationAPI.Models;
 using System.Threading.Tasks;

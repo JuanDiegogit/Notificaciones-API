@@ -8,10 +8,10 @@ namespace NotificationAPI.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int Id { get; set; } 
 
         [Required]
-        public int UsuarioId { get; set; }
+        public int UsuarioId { get; set; } 
 
         [Required]
         [MaxLength(255)]
@@ -24,6 +24,6 @@ namespace NotificationAPI.Models
 
         // Navegación
         [ForeignKey("UsuarioId")]
-        public Usuario Usuario { get; set; }
+        public Usuario Usuario { get; set; } = null!;
     }
 }

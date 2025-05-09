@@ -7,10 +7,10 @@ namespace NotificationAPI.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Notification> Notifications { get; set; }
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Pedido> Pedidos { get; set; }
-        
+        public DbSet<Notification> Notifications { get; set; } = null!;
+        public DbSet<Usuario> Usuarios { get; set; } = null!;
+        public DbSet<Pedido> Pedidos { get; set; } = null!;
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Metodo AlCrearModelo: aqui se configuran relaciones y restricciones del modelo.

@@ -8,25 +8,25 @@ namespace NotificationAPI.Models
 	{
 		[Key]
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-		public int Id { get; set; }
+		public int Id { get; set; } 
 
-		[Required]
-		public int UsuarioId { get; set; }
+        [Required]
+		public int UsuarioId { get; set; } 
 
-		[Required]
+        [Required]
 		[MaxLength(100)]
 		public string Producto { get; set; } = string.Empty;
 
 		[Required]
-		public int Cantidad { get; set; }
+		public int Cantidad { get; set; } 
 
-		[Required]
-		public decimal PrecioTotal { get; set; }
+        [Required]
+		public decimal PrecioTotal { get; set; } 
 
-		public DateTime FechaPedido { get; set; } = DateTime.UtcNow;
+        public DateTime FechaPedido { get; set; } = DateTime.UtcNow;
 
 		// Navegación
 		[ForeignKey("UsuarioId")]
-		public Usuario Usuario { get; set; }
-	}
+		public Usuario Usuario { get; set; } = null!;
+    }
 }

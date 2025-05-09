@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using NotificationAPI.Data;
 using NotificationAPI.Models;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace NotificationAPI.Controllers
         }
 
         // GET Devuelve todas las notificaciones.
-
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Notification>>> GetNotifications()
         {
@@ -40,6 +41,7 @@ namespace NotificationAPI.Controllers
         }
 
         // GET Devuelve una notificación específica
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<ActionResult<Notification>> GetNotification(int id)
         {
