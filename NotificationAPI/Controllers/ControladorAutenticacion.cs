@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using NotificationAPI.Servicios;
 
 
 namespace NotificationAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class ControladorAutenticacion : ControllerBase
     {
         private readonly AppDbContext _contexto;
@@ -24,6 +26,7 @@ namespace NotificationAPI.Controllers
         }
 
         // POST
+        [AllowAnonymous]
         [HttpPost("GenerarToken")]
         public async Task<ActionResult<string>> GenerarToken(int usuarioId)
         {

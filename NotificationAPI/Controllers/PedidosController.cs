@@ -12,6 +12,7 @@ namespace NotificationAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class PedidosController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -22,6 +23,7 @@ namespace NotificationAPI.Controllers
         }
 
         // GET
+        [AllowAnonymous]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Pedido>>> GetPedidos()
         {
@@ -38,6 +40,7 @@ namespace NotificationAPI.Controllers
         }
 
         // GET para obtener un pedido en especifico
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<ActionResult<Pedido>> GetPedido(int id)
         {
