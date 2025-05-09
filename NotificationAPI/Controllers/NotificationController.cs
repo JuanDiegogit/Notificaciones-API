@@ -2,11 +2,17 @@
 using NotificationAPI.Data;
 using NotificationAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;            
+using System.Threading.Tasks;                
+using Microsoft.AspNetCore.Authorization;    
+
 
 namespace NotificationAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class NotificationController : ControllerBase
     {
         private readonly AppDbContext _context;

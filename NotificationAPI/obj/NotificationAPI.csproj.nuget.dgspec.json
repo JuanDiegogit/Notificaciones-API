@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj": {}
+    "C:\\Users\\diego\\Documents\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj": {
+    "C:\\Users\\diego\\Documents\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Documents\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj",
         "projectName": "NotificationAPI",
-        "projectPath": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj",
-        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eugen\\source\\repos\\NotificationAPI\\NotificationAPI\\obj\\",
+        "projectPath": "C:\\Users\\diego\\Documents\\NotificationAPI\\NotificationAPI\\NotificationAPI.csproj",
+        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diego\\Documents\\NotificationAPI\\NotificationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -78,6 +79,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

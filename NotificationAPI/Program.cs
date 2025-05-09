@@ -20,6 +20,8 @@ builder.Services.AddSwaggerGen();
 var claveJwt = "lX8bJ/m/oR7Tu+j45vdi39My5afiA1A9zjjQrMCY4OF70KsJLQe8oAFGaiqJSqiLksPku7n2EPGX9V+nmyTmyA==";
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    
+
     .AddJwtBearer(opciones =>
     {
         opciones.TokenValidationParameters = new TokenValidationParameters
@@ -30,7 +32,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
     });
+builder.Services.AddScoped<ServicioAutenticacion>();
 var app = builder.Build();
+app.UseMiddleware<NotificationAPI.Middleware.ErrorHandlingMiddleware>();
 
 // Configurar middleware
 if (app.Environment.IsDevelopment())

@@ -4,6 +4,11 @@ using NotificationAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System;
+using System.Collections.Generic;            // IEnumerable<T>
+using System.Threading.Tasks;                // Task<>
+using Microsoft.AspNetCore.Authorization;    // [Authorize]
+using Microsoft.EntityFrameworkCore;         // ToListAsync(), etc.
 
 namespace NotificationAPI.Controllers
 {

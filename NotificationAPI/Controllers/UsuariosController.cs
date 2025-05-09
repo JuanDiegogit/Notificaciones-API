@@ -4,6 +4,9 @@ using NotificationAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System;
+using Microsoft.AspNetCore.Mvc;              // ControllerBase, [ApiController], ActionResult<>
+using Microsoft.AspNetCore.Authorization;    // [Authorize]
 
 namespace NotificationAPI.Controllers
 {
