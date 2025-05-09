@@ -1,13 +1,11 @@
-using Microsoft.AspNetCore.Mvc;
+using System;
 using NotificationAPI.Data;
 using NotificationAPI.Models;
-using NotificationAPI.Servicios;
-using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;            // IEnumerable<T>
-using System.Threading.Tasks;                // Task<>
-using Microsoft.AspNetCore.Authorization;    // [Authorize]
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace NotificationAPI.Controllers

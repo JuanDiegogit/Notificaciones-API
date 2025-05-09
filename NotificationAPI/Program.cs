@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using NotificationAPI.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;  
 using Microsoft.IdentityModel.Tokens;
+using NotificationAPI.Data;
+using NotificationAPI.Middleware;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

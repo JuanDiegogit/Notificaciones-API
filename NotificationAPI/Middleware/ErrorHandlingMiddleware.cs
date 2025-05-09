@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
+
 namespace NotificationAPI.Middleware
 {
     public class ErrorHandlingMiddleware
